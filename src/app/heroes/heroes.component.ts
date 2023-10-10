@@ -25,16 +25,12 @@ export class HeroesComponent {
 
   heroesList: HeroStruc[] = [];
   heroService: HeroService = inject(HeroService);
-  SortheroesList: HeroStruc[] = []
 
 
 
-
-  constructor() {
-    this.heroService.getAllHeroes().then((heroesList: HeroStruc[]) =>
-      this.heroesList = heroesList.sort((a, b) => a.score - b.score)
-
-    )
-
-  }
+    constructor() {
+      this.heroService.getHeroSorted().then(heroes => {
+        this.heroesList = heroes;
+      });
+    }
 }

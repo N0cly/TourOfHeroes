@@ -3,21 +3,40 @@
     {
       "id": 13,
       "name": "Dr. Marseille",
-      "scrore": 30
+      "score": 30
     },
     {
       "id": 15,
       "name": "Magneta",
-      "score": 25
+      "score": 2
     },
     {
       "id": 12,
       "name": "Bombasto",
-      "scrore": 12
+      "score": 12
     },
     {
       "id": 14,
       "name": "Celeritas",
+      "score": 3
+    },{
+      "id": 19,
+      "name": "John",
+      "score": 3
+    },
+    {
+      "id": 16,
+      "name": "Neta",
+      "score": 25
+    },
+    {
+      "id": 17,
+      "name": "Masto",
+      "score": 1
+    },
+    {
+      "id": 18,
+      "name": "Eritas",
       "score": 20
     }
   ]
