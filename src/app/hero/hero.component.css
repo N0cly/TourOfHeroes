@@ -1,0 +1,32 @@
+.listning{
+  display: grid;
+  grid-template-columns: 5vw 30vw;
+  margin: 2vh;
+}
+
+.id{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2vw;
+  background-color: #3f525c;
+  color: #FFFFFF;
+  border-radius:  8px 0 0 8px;
+  font-size: 2vw;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-left: 2vw;
+  font-size: 2vw;
+  background-color: #eeeeee;
+  border-radius: 0 8px 8px 0;
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+}

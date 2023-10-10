@@ -1,0 +1,24 @@
+{
+  "heroes": [
+    {
+      "id": 13,
+      "name": "Dr. Marseille",
+      "scrore": 30
+    },
+    {
+      "id": 15,
+      "name": "Magneta",
+      "score": 25
+    },
+    {
+      "id": 12,
+      "name": "Bombasto",
+      "scrore": 12
+    },
+    {
+      "id": 14,
+      "name": "Celeritas",
+      "score": 20
+    }
+  ]
+}
